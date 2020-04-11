@@ -110,10 +110,10 @@ $(document).ready(function() {
     if ( hour < nowHour24) {
       // $hourRow.css('')
       if (test) { console.log("lessThan"); }
-      $hourRow.css("background-color","lightgrey")
+      $hourRow.css("background-color","white")
     } else if ( hour > nowHour24) {
       if (test) { console.log("greaterthan"); }
-      $hourRow.css("background-color","lightgreen")
+      $hourRow.css("background-color","white")
     } else {
       if (test) { console.log("eqaul"); }
       $hourRow.css("background-color","tomato")
