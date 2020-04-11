@@ -116,7 +116,7 @@ $(document).ready(function() {
       $hourRow.css("background-color","white")
     } else {
       if (test) { console.log("eqaul"); }
-      $hourRow.css("background-color","tomato")
+      $hourRow.css("background-color","white")
     }
   };
 
