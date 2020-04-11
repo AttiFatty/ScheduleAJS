@@ -59,9 +59,12 @@ $(document).ready(function() {
     if (hour > 12) { 
       displayHour = hour - 12;
       ampm = "pm";
-    } else {
+    } else if (hour < 12) {
       displayHour = hour;
       ampm = "am";
+    } else {
+      displayHour = hour;
+      ampm = "pm";
     }
     
 
