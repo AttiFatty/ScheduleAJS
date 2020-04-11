@@ -78,6 +78,7 @@ input {
 }
 
 .dailyPlan {
+  background-color: white;
   color: black;  
   font-size: 12pt;
   height:100%;
@@ -85,7 +86,7 @@ input {
 }
 
 .saveIcon {
-  background-color: darkslategrey;
+  background-color: black;
   color: linen;
   border-radius: 0px 15px 15px 0px;
   font-size: 1.5em;
